@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/rajatmathur/.android/build-cache/45dbfa7469c44b1ed2e8450c3129f9552706d958/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/rajatmathur/OneDrive/Masters/Summer-2017/17678/ProjectRepos/dndi-android/code/UAVMonitor/app/build/intermediates/pre-dexed/debug/classes_6c8a317cfacec60245ea5d65cded0f50b76b8d0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rajatmathur/.android/build-cache/1097b93e14f1ae33e3195e2f0442627568d0c041/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/rajatmathur/OneDrive/Masters/Summer-2017/17678/ProjectRepos/dndi-android/code/UAVMonitor/app/build/intermediates/pre-dexed/debug/classes_d3aa0dc4fa9a96dce2d616651b54e26ee30228be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rajatmathur/.android/build-cache/42b20f1633e83203c359c7d28704f782566fbcb1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/rajatmathur/OneDrive/Masters/Summer-2017/17678/ProjectRepos/dndi-android/code/UAVMonitor/app/build/intermediates/pre-dexed/debug/classes_b9b93fdce4cd8553b9c85ffd86224f7b9274d2c3.jar" />
+    </item>
+
+</items>
