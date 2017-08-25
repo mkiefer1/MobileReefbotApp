@@ -22,7 +22,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements
     CameraFragment.OnFragmentInteractionListener,
-    JoystickFragment.OnFragmentInteractionListener {
+    JoystickFragment.OnFragmentInteractionListener,
+    SensorFragment.OnFragmentInteractionListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -128,8 +129,10 @@ public class MainActivity extends AppCompatActivity implements
             // Return a PlaceholderFragment (defined as a static inner class below).
             switch (position) {
                 case 0:
-                    return new JoystickFragment();
+                    return new SensorFragment();
                 case 1:
+                    return new JoystickFragment();
+                case 2:
                     return new CameraFragment();
             }
             return null;
@@ -138,15 +141,17 @@ public class MainActivity extends AppCompatActivity implements
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 2;
+            return 3;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "JoyStick";
+                    return "Sensors";
                 case 1:
+                    return "Joystick";
+                case 2:
                     return "Camera";
             }
             return null;
